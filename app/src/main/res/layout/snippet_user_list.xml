@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_photo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        app:civ_border_color="@color/white"
+        android:src="@drawable/dp1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        app:civ_border_width="0.5dp"/>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/profile_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        >
+
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Love"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_grey"
+        />
+    <TextView
+        android:id="@+id/lastMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="25"
+        android:text="Hi how are you."
+        android:layout_below="@+id/userName"
+        android:textSize="15sp"
+        android:textColor="@color/cute_grey"
+        android:textStyle="bold"
+        />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="@string/time_stamp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_grey"
+        />
+
+</RelativeLayout>

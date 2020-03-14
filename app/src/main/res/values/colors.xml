@@ -11,6 +11,9 @@
     <color name="grey">#918b8e</color>
     <color name="green">#32a463</color>
     <color name="whatsapp_green">#1C6F57</color>
+    <color name="whatsapp_green_me">#E2FFC7</color>
+    <color name="whatsapp_green_second_person">#FFFFFF</color>
+
 
     <color name="light_red">#ff4f55</color>
     <color name="light_blue">#8a82ff</color>

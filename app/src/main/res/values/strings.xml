@@ -5,6 +5,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="juschat_sent_code">JusChat will send an SMS message to verify your phone number. Enter your country code and phone number.</string>
 
 
 </resources>
